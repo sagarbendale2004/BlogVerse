@@ -1,0 +1,25 @@
+.home {
+    height: 85vh;
+}
+
+.container2 {
+    background-image: linear-gradient(320deg, red,purple);
+    color: white;
+    border-radius: 30px;
+}
+
+.createblog {
+    text-decoration: none;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.createblog:hover {
+    color: rgb(244, 124, 255);
+}
+
+.container2 h1 {
+    font-size: 3rem;
+}
+

@@ -1,0 +1,86 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.page {
+   width: 100%;
+}
+
+.homepageTitleLink {
+    text-decoration: none;
+    color: gray;
+    transition: all 0.3s ease-in-out;
+}
+
+.homepageTitleLink:hover {
+   color: black;
+}
+
+.blogsPagePara {
+   font-size: 1.3rem;
+   text-align: justify;
+}
+
+.blogHeading {
+   font-size: 1.3rem;
+   text-align: justify;
+}
+
+.blogsPara {
+   font-size: 1rem;
+   text-align: justify;
+}
+
+.blog-card {
+   border: 1px solid rgb(61, 61, 61);
+   border-radius: 4px;
+   box-shadow: 1px 1px 1px 1px gray;
+}
+
+.link {
+   text-decoration: none;
+   color: rgb(58, 58, 58);
+}
+
+.form-text {
+   border: 1px solid gray;
+   padding: 5px;
+   outline: none;
+   border-radius: 5px;
+   font-size: 18px;
+}
+
+
+.form-text::placeholder {
+   font-size: 16px;
+}
+
+.heading {
+   color: rgb(92, 92, 92);
+}
+
+.button {
+   padding: 10px 20px;
+   background-color: rgb(1, 122, 60);
+   margin-top: 6px;
+   color: white;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+}
+
+.button:hover {
+   background-color: rgb(61, 116, 61);
+}
+
+.edit {
+   color: palevioletred;
+   font-size: 2rem;
+}
+
+.edit:hover {
+   color: purple;
+   cursor: pointer;
+}
